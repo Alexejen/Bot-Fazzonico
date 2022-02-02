@@ -46,7 +46,7 @@ if (message.content == "/insulta Gianmarco") {
     var embed = new Discord.MessageEmbed()
         .setTitle("Cheddire, è un....")
         .setDescription("Gianmarco è una testa di Minchia abissale, è così tanto stronzo che è milanista.")
-        .setThumbnail("")
+        .setThumbnail("https://tse4.mm.bing.net/th?id=OIP.yVC9bENRQofvjpg-CtsmOwAAAA&pid=Api&P=0&w=155&h=155")
 
     message.channel.send({ embeds: [embed] })
 }
