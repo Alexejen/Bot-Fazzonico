@@ -51,4 +51,13 @@ if (message.content == "/insulta Gianmarco") {
     message.channel.send({ embeds: [embed] })
 }
 
+if (message.content == "/comandi") {
+    var embed = new Discord.MessageEmbed()
+        .setTitle("i comandi sono i seguenti:")
+        .setDescription("/Dimmi la tua opinione su: Mirko Gennaro, /Dimmi la tua opinione su: Alessio Di Bella, /insulta Gianmarco, /W ; brutto coglione, si prega il rispetto della punteggiatura giusta dei comandi quindi se vuoi che funzionino devi fare copia incolla, rincoglionitO/A, metto anche il femminile perchè sennò Gianmarco potrebbe offendersi (se non l'hai capita oltre a dirti che sei un coglione te la spiego): Gianmarco è una femminuccia")
+        .setThumbnail("")
+
+    message.channel.send({ embeds: [embed] })
+}
+
 })
