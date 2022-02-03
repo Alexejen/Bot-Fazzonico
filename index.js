@@ -37,7 +37,7 @@ if (message.content == "/Dimmi la tua opinione su: Mirko Gennaro") {
     var embed = new Discord.MessageEmbed()
         .setTitle("Mirko AKA Einstein")
         .setDescription("È la persona più intelligente che abbia mai conosciuto")
-        .setThumbnail("")
+        .setThumbnail("https://tse3.mm.bing.net/th?id=OIP.H_RCN-7OWOx9Sq38cQ2ulAHaJf&pid=Api&P=0&w=128&h=164")
 
     message.channel.send({ embeds: [embed] })
 }
