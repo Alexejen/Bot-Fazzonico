@@ -51,17 +51,13 @@ if (message.content == "/insulta Gianmarco") {
     message.channel.send({ embeds: [embed] })
 }
 
+if (message.content == "/insultami") {
+    message.channel.send(`${author.message.name} sei un coglione`)
+}
+
 if (message.content == "/comandi") {
     message.channel.send("i comandi sono i seguenti: /Dimmi la tua opinione su: Mirko Gennaro, /Dimmi la tua opinione su: Alessio Di Bella, /insulta Gianmarco, /W ; brutto coglione, si prega il rispetto della punteggiatura giusta dei comandi quindi se vuoi che funzionino devi fare copia incolla, rincoglionito")
 }
 
 })
 
-client.on("messageCreate", (message) => {
-
-    if (message.content == "/insultami") {
-            message.channel.send(`${author.message.name} sei un coglione`)
-
-        }
-      
-    })
