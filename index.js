@@ -60,4 +60,3 @@ if (message.content == "/comandi") {
 }
 
 })
-
