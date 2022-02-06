@@ -23,7 +23,7 @@ client.on("messageCreate", (message) => {
             message.channel.send("EMOTE DEL FAZZONE")
             message.channel.send("EMOTE DEL FAZZONE")
         }
-                
+                 
     if (message.content == "/Dimmi la tua opinione su: Alessio Di Bella") {
         var embed = new Discord.MessageEmbed()
             .setTitle("Alessio")
@@ -56,3 +56,12 @@ if (message.content == "/comandi") {
 }
 
 })
+
+client.on("messageCreate", (message) => {
+
+    if (message.content == "/insultami") {
+            message.channel.send(`${author.message.name} sei un coglione`)
+
+        }
+      
+    })
