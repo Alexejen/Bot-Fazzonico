@@ -3,7 +3,7 @@ const client = new Discord.Client(
     { intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_BANS"] }
 )
 
-client.login(process.env.token)
+client.login("OTMzODM4MDg0ODYzMzE2MDI4.YenWfQ.5Ek6L1gn0i0kMAKGRT8Nsv0p8sQ")
 
 client.on("ready", () => {
     console.log("Bot ONLINE")
@@ -49,10 +49,6 @@ if (message.content == "/insulta Gianmarco") {
         .setThumbnail("https://tse4.mm.bing.net/th?id=OIP.yVC9bENRQofvjpg-CtsmOwAAAA&pid=Api&P=0&w=155&h=155")
 
     message.channel.send({ embeds: [embed] })
-}
-
-if (message.content == "/insultami") {
-    message.channel.send(`${author.message.name} sei un coglione`)
 }
 
 if (message.content == "/comandi") {
